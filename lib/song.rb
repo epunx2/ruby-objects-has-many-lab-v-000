@@ -15,7 +15,7 @@ class Song
     self.artist.name
   end
 
-  def self.posts
+  def self.songs
     @@all
   end
 
