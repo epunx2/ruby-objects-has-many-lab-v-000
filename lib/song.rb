@@ -15,4 +15,8 @@ class Song
     self.artist.name
   end
 
+  def self.posts
+    @@all
+  end
+
 end
