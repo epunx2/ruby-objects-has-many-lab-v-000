@@ -17,7 +17,6 @@ class Post
     else
       nil
     end
-
   end
 
   def self.posts
