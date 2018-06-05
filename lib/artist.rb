@@ -26,7 +26,7 @@ class Artist
     @songs
   end
 
-  def self.post_count
+  def self.song_count
     count = Song.songs
     count.length
   end
