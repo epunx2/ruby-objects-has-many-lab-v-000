@@ -2,9 +2,9 @@
 ## This will be related to the Artist class.
 ## The tests for the song.rb will not pass
 ## properly if the Artist class isn't working
-@@all = []
 class Song
   attr_accessor :name, :artist
+  @@all = []
 
   def initialize(name)
     @name = name
