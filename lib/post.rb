@@ -2,10 +2,10 @@
 ## This will be related to the Author class.
 ## The tests for the post.rb will not pass
 ## properly if the Author class isn't working
-@@all = []
+
 class Post
   attr_accessor :title, :author
-
+  @@all = []
   def initialize(title)
     @title = title
     @@all << self
