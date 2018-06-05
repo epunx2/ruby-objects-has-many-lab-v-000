@@ -26,8 +26,10 @@ class Artist
     @songs
   end
 
-  def self.song_count
-    @@all.length
+  def self.post_count
+    binding.pry
+    count = Song.songs
+    count.length
   end
 
 end
