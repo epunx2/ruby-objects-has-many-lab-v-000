@@ -27,7 +27,6 @@ class Artist
   end
 
   def self.post_count
-    binding.pry
     count = Song.songs
     count.length
   end
